@@ -9,7 +9,6 @@ TagManager:
   - Player
   - Slow
   - Sketchbook
-  - Eraser
   layers:
   - Default
   - TransparentFX
