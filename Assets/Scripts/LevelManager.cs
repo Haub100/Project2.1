@@ -6,7 +6,6 @@ using System.Linq;
 public class LevelManager : MonoBehaviour 
 {
 	public static LevelManager Instance { get; private set; }
-
 	public Player Player { get; set; }
 	public CameraController Camera { get; set; }
 
@@ -66,12 +65,14 @@ public class LevelManager : MonoBehaviour
 	{
 		Player.Kill ();
 		//Camera.isFollowing = false;
-		yield return new WaitForSeconds (0.5f);
+		yield return new WaitForSeconds (2.0f);
 
 		//Camera.isFollowing = true;
 
 		if (_currentCheckpointIndex != -1)
-						_checkpoints [_currentCheckpointIndex].SpawnPlayer (Player);
+		{
+			_checkpoints [_currentCheckpointIndex].SpawnPlayer (Player);
+		}
 
 		// TODO: points
 	}
