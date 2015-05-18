@@ -1,63 +1,71 @@
 Base path: E:/Program Files (x86)/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-10156
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-16388
 Cmd: getPlatforms
-Cmd: preprocess
-  insize=4159 outsize=1016 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=3447 outsize=2265 kw=WATER_REFRACTIVE ok=1
+  api=4 type=0 insize=7257 outsize=5247 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=3447 outsize=2875 kw=WATER_REFRACTIVE ok=1
-Cmd: preprocess
-  insize=12815 outsize=2575 ok=1
+  api=4 type=1 insize=7257 outsize=2355 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=10255 outsize=5377 kw=WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON ok=1
+  api=4 type=0 insize=7257 outsize=4857 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=10255 outsize=6141 kw=WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON ok=1
+  api=4 type=1 insize=7257 outsize=2038 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=10261 outsize=4987 kw=WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON ok=1
+  api=4 type=0 insize=4694 outsize=3939 kw=DIRECTIONAL ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=10261 outsize=4727 kw=WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON ok=1
+  api=4 type=1 insize=4694 outsize=1940 kw=DIRECTIONAL ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=10030 outsize=1973 kw= ok=1
+  api=4 type=0 insize=7896 outsize=5247 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=10030 outsize=3313 kw= ok=1
-Cmd: preprocess
-  insize=11975 outsize=2457 ok=1
+  api=4 type=1 insize=7896 outsize=3216 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=9538 outsize=5028 kw=WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON ok=1
+  api=4 type=0 insize=7896 outsize=4857 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=9538 outsize=5247 kw=WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON ok=1
+  api=4 type=1 insize=7896 outsize=2899 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=9540 outsize=4735 kw=WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON ok=1
+  api=4 type=0 insize=5060 outsize=3939 kw=DIRECTIONAL ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=9540 outsize=4459 kw=WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON ok=1
+  api=4 type=1 insize=5060 outsize=1940 kw=DIRECTIONAL ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=9313 outsize=1932 kw= ok=1
+  api=4 type=0 insize=1990 outsize=3963 kw= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=9313 outsize=3313 kw= ok=1
-Cmd: preprocess
-  insize=1802 outsize=527 ok=1
+  api=4 type=1 insize=1990 outsize=2314 kw= ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1581 outsize=2184 kw= ok=1
+  api=4 type=0 insize=751 outsize=3760 kw=SHADOWS_DEPTH _ALPHATEST_ON ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1581 outsize=2070 kw= ok=1
+  api=4 type=1 insize=751 outsize=819 kw=SHADOWS_DEPTH _ALPHATEST_ON ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=977 outsize=4321 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+  api=4 type=0 insize=982 outsize=4321 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF _ALPHATEST_ON ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=977 outsize=10740 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+  api=4 type=1 insize=982 outsize=10975 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF _ALPHATEST_ON ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=3447 outsize=1908 kw=WATER_SIMPLE ok=1
+  api=4 type=0 insize=982 outsize=3963 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF _ALPHATEST_ON ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=3447 outsize=2225 kw=WATER_SIMPLE ok=1
+  api=4 type=1 insize=982 outsize=10667 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF _ALPHATEST_ON ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=3447 outsize=2265 kw=WATER_REFLECTIVE ok=1
+  api=4 type=0 insize=938 outsize=4020 kw=DIRECTIONAL SHADOWS_OFF _ALPHATEST_ON ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=3447 outsize=2566 kw=WATER_REFLECTIVE ok=1
+  api=4 type=1 insize=938 outsize=5645 kw=DIRECTIONAL SHADOWS_OFF _ALPHATEST_ON ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=10255 outsize=5377 kw=WATER_SIMPLE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON ok=1
+  api=4 type=0 insize=751 outsize=3760 kw=SHADOWS_DEPTH _ALPHABLEND_ON ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=10255 outsize=5751 kw=WATER_SIMPLE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON ok=1
+  api=4 type=1 insize=751 outsize=1217 kw=SHADOWS_DEPTH _ALPHABLEND_ON ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=9538 outsize=5028 kw=WATER_SIMPLE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON ok=1
+  api=4 type=0 insize=982 outsize=3963 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF _ALPHABLEND_ON ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=9538 outsize=4857 kw=WATER_SIMPLE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON ok=1
+  api=4 type=1 insize=982 outsize=10512 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF _ALPHABLEND_ON ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=938 outsize=4020 kw=DIRECTIONAL SHADOWS_OFF _ALPHABLEND_ON ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=938 outsize=5467 kw=DIRECTIONAL SHADOWS_OFF _ALPHABLEND_ON ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=751 outsize=3760 kw=SHADOWS_DEPTH _ALPHAPREMULTIPLY_ON ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=751 outsize=1217 kw=SHADOWS_DEPTH _ALPHAPREMULTIPLY_ON ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=982 outsize=3963 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF _ALPHAPREMULTIPLY_ON ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=982 outsize=10577 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF _ALPHAPREMULTIPLY_ON ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=938 outsize=4020 kw=DIRECTIONAL SHADOWS_OFF _ALPHAPREMULTIPLY_ON ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=938 outsize=5597 kw=DIRECTIONAL SHADOWS_OFF _ALPHAPREMULTIPLY_ON ok=1
