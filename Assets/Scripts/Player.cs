@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
 	private bool _isFacingRight;
 	private CharacterController2D _controller;
 	private float _normalizedHorizontalSpeed;
+	public GameObject jumpAudio;
 
 	public float MaxSpeed = 8;
 	public float SpeedAccelerationOnGround = 10f;
@@ -132,6 +133,7 @@ public class Player : MonoBehaviour
 		{
 			_controller.Jump();
 			_controller.dead = false;
+			jumpAudio.GetComponent<AudioSource>().Play ();
 		}
 	}
 
