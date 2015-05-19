@@ -5,15 +5,16 @@ public class PlayerAnimation : MonoBehaviour
 {
 	
 	private Animator animator;
+	private Player player;
 	private CharacterController2D _controller;
 	public bool IsFacingRight { get; private set; }
 	public bool IsMoving { get; private set; }
 
-	public bool IsDead { get; private set; }
 	
 	// Use this for initialization
 	void Start()
 	{
+		player = this.GetComponent<Player> ();
 		animator = this.GetComponent<Animator>();
 		_controller = this.GetComponent<CharacterController2D> ();
 		IsFacingRight = transform.localScale.x > 0;
@@ -22,13 +23,20 @@ public class PlayerAnimation : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-		if(!IsDead)
+		if(!player.IsDead)
 			AnimHandleInput ();
 
 		var vertical = Input.GetAxis("Vertical");
 		var horizontal = Input.GetAxis("Horizontal");
 		
 
+	}
+
+	void OnTriggerEnter2D (Collider2D trigger)
+	{
+		if (trigger.gameObject.tag.Equals ("Killer")) {
+			animator.SetTrigger("Death");
+		}
 	}
 
 	private void AnimHandleInput()
@@ -54,8 +62,7 @@ public class PlayerAnimation : MonoBehaviour
 		
 		if(_controller.CanJump && Input.GetKeyDown(KeyCode.Space))
 		{
-			//_controller.Jump();
-			//_controller.dead = false;
+			animator.SetTrigger("JumpTrigg");
 		}
 
 		if (IsFacingRight == true && IsMoving == false)

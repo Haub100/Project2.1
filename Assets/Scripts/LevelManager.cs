@@ -66,7 +66,7 @@ public class LevelManager : MonoBehaviour
 	{
 		Player.Kill ();
 		//Camera.isFollowing = false;
-		yield return new WaitForSeconds (0.5f);
+		yield return new WaitForSeconds (2.0f);
 
 		//Camera.isFollowing = true;
 

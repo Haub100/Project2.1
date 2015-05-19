@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Player : MonoBehaviour 
 {
+	private Animator animator;
 	private bool _isFacingRight;
 	private CharacterController2D _controller;
 	private float _normalizedHorizontalSpeed;
@@ -14,8 +15,13 @@ public class Player : MonoBehaviour
 	public bool IsDead { get; private set; }
 	//private Vector2 NoVelo = new Vector2 (0f, 0f);
 
+	public void Awake()
+	{
+	}
+
 	public void Start()
 	{
+		animator = this.GetComponent<Animator> ();
 		_controller = GetComponent<CharacterController2D> ();
 		_isFacingRight = transform.localScale.x > 0;
 	}
@@ -51,11 +57,15 @@ public class Player : MonoBehaviour
 
 		GetComponent<Collider2D> ().enabled = true;
 
+
 		transform.position = spawnPoint.position;
+		animator.SetTrigger ("Spawn");
 		//Debug.Log (_controller.Velocity);
 		//_controller.SetForce(NoVelo);
 		//Debug.Log (_controller.Velocity);
 		IsDead = false;
+
+		//animator.ResetTrigger ("Spawn");
 
 	}
 
